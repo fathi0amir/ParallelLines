@@ -6,7 +6,9 @@ then it will find the distance between the points as a horizontal line. Otherwis
 search range and finds the minimum distance between the two points.
 
 The input image is as follows:
+
 ![Input Image](im04.png)
 
 and it will generate an output image as follows:
+
 ![Output Image](im04_lines.png)
