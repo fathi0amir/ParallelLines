@@ -12,3 +12,17 @@ The input image is as follows:
 and it will generate an output image as follows:
 
 ![Output Image](im04_lines.png)
+
+## For the case that edges cannot be separate by a midline
+
+If the edges cannot be separated by a vertical midline then use `findmidline.py`. 
+This will first do a search to separate the left edge form the right edge then 
+it will find the distance between the two edges. 
+
+The input image is as follows:
+
+![Input Image](im05.png)
+
+and it will generate an output image as follows:
+
+![Output Image](im05_lines.png)
