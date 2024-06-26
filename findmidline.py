@@ -119,11 +119,12 @@ for i in range(int(search_range/2), len(left_side_slope) - int(search_range/2)):
 
 # print(f"Distance: {distance2}")
 
+img = Image.open("im05.png").convert("RGB")
 draw = ImageDraw.Draw(img)
 
 skipping_factor = 10 # to avoid drawing all the lines
 for i in range(0, len(distance2), skipping_factor):
     x1, y1, x2, y2, _ = distance2[i]
-    draw.line((x1, y1, x2, y2), fill=128, width=4)
+    draw.line((x1, y1, x2, y2), fill=(128, 0, 0), width=2)
 
 img.show()
